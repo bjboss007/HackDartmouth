@@ -1,0 +1,25 @@
+<template name="UI">
+    <div class="">
+    {{#each docItems}} 
+        {{> docItem}} 
+    {{else}}
+        {{> noItems}} 
+    {{/each}}
+    </div>
+</template>
+
+<template name="docItem">
+    <h2>Name: {{_name}}</h2>
+    <h2>Total Parts: {{_parts.length}}</h2>
+    <button class="btn btnDownload">Download All Parts</button>
+</template>
+
+<template name="noItems">
+    <div class="input-group userGUI">
+        <span id="LoadingBtn" class="input-group-addon">Monitoring Project Rhino Local Folder</span>
+        <br/>
+        <span id="LoadingImg" class="input-group-addon"><i class = "glyphicon glyphicon-hourglass"></i></span>
+        <br/>
+        <p id="DownloadBtn" class="btn btn-default"><i class = "glyphicon glyphicon-cloud-download"></i></p>
+   </div>
+</template>

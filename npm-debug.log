@@ -1,0 +1,949 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/azureuser/.nvm/v0.10.28/bin/node',
+1 verbose cli   '/home/azureuser/.nvm/v0.10.28/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'googleapis' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'googleapis', null ]
+5 verbose cache add name=undefined spec="googleapis" args=["googleapis",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'googleapis',
+6 verbose parsed url   path: 'googleapis',
+6 verbose parsed url   href: 'googleapis' }
+7 silly lockFile 18fa03d5-googleapis googleapis
+8 verbose lock googleapis /home/azureuser/.npm/18fa03d5-googleapis.lock
+9 silly lockFile 18fa03d5-googleapis googleapis
+10 silly lockFile 18fa03d5-googleapis googleapis
+11 verbose addNamed [ 'googleapis', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 79216f49-googleapis googleapis@
+14 verbose lock googleapis@ /home/azureuser/.npm/79216f49-googleapis.lock
+15 silly addNameRange { name: 'googleapis', range: '*', hasData: false }
+16 verbose url raw googleapis
+17 verbose url resolving [ 'https://registry.npmjs.org/', './googleapis' ]
+18 verbose url resolved https://registry.npmjs.org/googleapis
+19 info trying registry request attempt 1 at 09:40:55
+20 http GET https://registry.npmjs.org/googleapis
+21 http 200 https://registry.npmjs.org/googleapis
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 12 Apr 2015 09:40:55 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"5SMWHMV7M1FP5P33HX3VD9QLZ"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '110405',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1428831655.338124,VS0,VE78',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'googleapis', range: '*', hasData: true }
+24 silly addNameRange versions [ 'googleapis',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1-alpha',
+24 silly addNameRange     '0.2.2-alpha',
+24 silly addNameRange     '0.2.3-alpha',
+24 silly addNameRange     '0.2.4-alpha',
+24 silly addNameRange     '0.2.5-alpha',
+24 silly addNameRange     '0.2.6-alpha',
+24 silly addNameRange     '0.2.7-alpha',
+24 silly addNameRange     '0.2.8-alpha',
+24 silly addNameRange     '0.2.9-alpha',
+24 silly addNameRange     '0.2.10-alpha',
+24 silly addNameRange     '0.2.11-alpha',
+24 silly addNameRange     '0.2.12-alpha',
+24 silly addNameRange     '0.2.13-alpha',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '1.0.8',
+24 silly addNameRange     '1.0.9',
+24 silly addNameRange     '1.0.10',
+24 silly addNameRange     '1.0.11',
+24 silly addNameRange     '1.0.12',
+24 silly addNameRange     '1.0.13',
+24 silly addNameRange     '1.0.14',
+24 silly addNameRange     '1.0.15',
+24 silly addNameRange     '1.0.16',
+24 silly addNameRange     '1.0.17',
+24 silly addNameRange     '1.0.18',
+24 silly addNameRange     '1.0.19',
+24 silly addNameRange     '1.0.20',
+24 silly addNameRange     '1.0.21',
+24 silly addNameRange     '1.0.22',
+24 silly addNameRange     '1.0.23',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.1.3',
+24 silly addNameRange     '1.1.4',
+24 silly addNameRange     '1.1.5',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2' ] ]
+25 verbose addNamed [ 'googleapis', '2.0.2' ]
+26 verbose addNamed [ '2.0.2', '2.0.2' ]
+27 silly lockFile a78eae3c-googleapis-2-0-2 googleapis@2.0.2
+28 verbose lock googleapis@2.0.2 /home/azureuser/.npm/a78eae3c-googleapis-2-0-2.lock
+29 silly lockFile 41c9286c--googleapis-googleapis-2-0-2-tgz https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz
+30 verbose lock https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz /home/azureuser/.npm/41c9286c--googleapis-googleapis-2-0-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz',
+31 verbose addRemoteTarball   '77eae573d6185f98879f2f0440cb61c0a2d49b4d' ]
+32 info retry fetch attempt 1 at 09:40:55
+33 verbose fetch to= /home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz
+34 http GET https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz
+35 http 200 https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz
+36 verbose tar unpack /home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz
+37 silly lockFile a56d482d-ser-npm-googleapis-2-0-2-package tar:///home/azureuser/.npm/googleapis/2.0.2/package
+38 verbose lock tar:///home/azureuser/.npm/googleapis/2.0.2/package /home/azureuser/.npm/a56d482d-ser-npm-googleapis-2-0-2-package.lock
+39 silly lockFile 85fef7ca-55885-0-5723506170324981-tmp-tgz tar:///home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz
+40 verbose lock tar:///home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz /home/azureuser/.npm/85fef7ca-55885-0-5723506170324981-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry CONTRIBUTING.md
+46 silly gunzTarPerm extractEntry COPYING
+47 silly gunzTarPerm extractEntry MIGRATING.md
+48 silly gunzTarPerm extractEntry apis/index.js
+49 silly gunzTarPerm extractEntry apis/gamesConfiguration/v1configuration.js
+50 silly gunzTarPerm extractEntry apis/admin/directory_v1.js
+51 silly gunzTarPerm extractEntry apis/admin/email_migration_v2.js
+52 silly gunzTarPerm extractEntry apis/admin/reports_v1.js
+53 silly gunzTarPerm extractEntry apis/adsense/v1.2.js
+54 silly gunzTarPerm extractEntry apis/adsense/v1.3.js
+55 silly gunzTarPerm extractEntry apis/adsense/v1.4.js
+56 silly gunzTarPerm extractEntry apis/adsensehost/v4.1.js
+57 silly gunzTarPerm extractEntry apis/analytics/v2.4.js
+58 silly gunzTarPerm extractEntry apis/analytics/v3.js
+59 silly gunzTarPerm extractEntry apis/androidenterprise/v1.js
+60 silly gunzTarPerm extractEntry apis/androidpublisher/v1.1.js
+61 silly gunzTarPerm extractEntry apis/androidpublisher/v1.js
+62 silly gunzTarPerm extractEntry apis/androidpublisher/v2.js
+63 silly gunzTarPerm extractEntry apis/appsactivity/v1.js
+64 silly gunzTarPerm extractEntry apis/appstate/v1.js
+65 silly gunzTarPerm extractEntry apis/audit/v1.js
+66 silly gunzTarPerm extractEntry apis/autoscaler/v1beta2.js
+67 silly gunzTarPerm extractEntry apis/bigquery/v2.js
+68 silly gunzTarPerm extractEntry apis/blogger/v2.js
+69 silly gunzTarPerm extractEntry apis/blogger/v3.js
+70 silly gunzTarPerm extractEntry apis/books/v1.js
+71 silly gunzTarPerm extractEntry apis/calendar/v3.js
+72 silly gunzTarPerm extractEntry apis/civicinfo/v2.js
+73 silly gunzTarPerm extractEntry apis/cloudlatencytest/v2.js
+74 silly gunzTarPerm extractEntry apis/cloudmonitoring/v2beta2.js
+75 silly gunzTarPerm extractEntry apis/compute/v1.js
+76 silly gunzTarPerm extractEntry apis/container/v1beta1.js
+77 silly gunzTarPerm extractEntry apis/content/v2.js
+78 silly gunzTarPerm extractEntry apis/coordinate/v1.js
+79 silly gunzTarPerm extractEntry apis/customsearch/v1.js
+80 silly gunzTarPerm extractEntry apis/dataflow/v1beta3.js
+81 silly gunzTarPerm extractEntry apis/datastore/v1beta1.js
+82 silly gunzTarPerm extractEntry apis/datastore/v1beta2.js
+83 silly gunzTarPerm extractEntry apis/deploymentmanager/v2beta1.js
+84 silly gunzTarPerm extractEntry apis/dfareporting/v1.1.js
+85 silly gunzTarPerm extractEntry apis/dfareporting/v1.2.js
+86 silly gunzTarPerm extractEntry apis/dfareporting/v1.3.js
+87 silly gunzTarPerm extractEntry apis/dfareporting/v1.js
+88 silly gunzTarPerm extractEntry apis/dfareporting/v2.0.js
+89 silly gunzTarPerm extractEntry apis/discovery/v1.js
+90 silly gunzTarPerm extractEntry apis/dns/v1beta1.js
+91 silly gunzTarPerm extractEntry apis/doubleclickbidmanager/v1.js
+92 silly gunzTarPerm extractEntry apis/doubleclicksearch/v2.js
+93 silly gunzTarPerm extractEntry apis/drive/v1.js
+94 silly gunzTarPerm extractEntry apis/drive/v2.js
+95 silly gunzTarPerm extractEntry apis/fitness/v1.js
+96 silly gunzTarPerm extractEntry apis/freebase/v1-sandbox.js
+97 silly gunzTarPerm extractEntry apis/freebase/v1.js
+98 silly gunzTarPerm extractEntry apis/freebase/v1sandbox.js
+99 silly gunzTarPerm extractEntry apis/fusiontables/v1.js
+100 silly gunzTarPerm extractEntry apis/fusiontables/v2.js
+101 silly gunzTarPerm extractEntry apis/games/v1.js
+102 silly gunzTarPerm extractEntry apis/adexchangeseller/v1.1.js
+103 silly gunzTarPerm extractEntry apis/adexchangeseller/v1.js
+104 silly gunzTarPerm extractEntry apis/adexchangeseller/v2.0.js
+105 silly gunzTarPerm extractEntry apis/gamesManagement/v1management.js
+106 silly gunzTarPerm extractEntry apis/gan/v1beta1.js
+107 silly gunzTarPerm extractEntry apis/genomics/v1beta2.js
+108 silly gunzTarPerm extractEntry apis/gmail/v1.js
+109 silly gunzTarPerm extractEntry apis/groupsmigration/v1.js
+110 silly gunzTarPerm extractEntry apis/groupssettings/v1.js
+111 silly gunzTarPerm extractEntry apis/identitytoolkit/v3.js
+112 silly gunzTarPerm extractEntry apis/adexchangebuyer/v1.2.js
+113 silly gunzTarPerm extractEntry apis/adexchangebuyer/v1.3.js
+114 silly gunzTarPerm extractEntry apis/licensing/v1.js
+115 silly gunzTarPerm extractEntry apis/manager/v1beta2.js
+116 silly gunzTarPerm extractEntry apis/mapsengine/exp2.js
+117 silly gunzTarPerm extractEntry apis/mapsengine/v1.js
+118 silly gunzTarPerm extractEntry apis/mirror/v1.js
+119 silly gunzTarPerm extractEntry apis/oauth2/v1.js
+120 silly gunzTarPerm extractEntry apis/oauth2/v2.js
+121 silly gunzTarPerm extractEntry apis/pagespeedonline/v1.js
+122 silly gunzTarPerm extractEntry apis/pagespeedonline/v2.js
+123 silly gunzTarPerm extractEntry apis/plus/v1.js
+124 silly gunzTarPerm extractEntry apis/plusDomains/v1.js
+125 silly gunzTarPerm extractEntry apis/prediction/v1.2.js
+126 silly gunzTarPerm extractEntry apis/prediction/v1.3.js
+127 silly gunzTarPerm extractEntry apis/prediction/v1.4.js
+128 silly gunzTarPerm extractEntry apis/prediction/v1.5.js
+129 silly gunzTarPerm extractEntry apis/prediction/v1.6.js
+130 silly gunzTarPerm extractEntry apis/pubsub/v1beta1.js
+131 silly gunzTarPerm extractEntry apis/pubsub/v1beta1a.js
+132 silly gunzTarPerm extractEntry apis/pubsub/v1beta2.js
+133 silly gunzTarPerm extractEntry apis/qpxExpress/v1.js
+134 silly gunzTarPerm extractEntry apis/replicapool/v1beta1.js
+135 silly gunzTarPerm extractEntry apis/replicapool/v1beta2.js
+136 silly gunzTarPerm extractEntry apis/replicapoolupdater/v1beta1.js
+137 silly gunzTarPerm extractEntry apis/reseller/v1.js
+138 silly gunzTarPerm extractEntry apis/reseller/v1sandbox.js
+139 silly gunzTarPerm extractEntry apis/resourceviews/v1beta1.js
+140 silly gunzTarPerm extractEntry apis/resourceviews/v1beta2.js
+141 silly gunzTarPerm extractEntry apis/siteVerification/v1.js
+142 silly gunzTarPerm extractEntry apis/spectrum/v1explorer.js
+143 silly gunzTarPerm extractEntry apis/sqladmin/v1beta1.js
+144 silly gunzTarPerm extractEntry apis/sqladmin/v1beta3.js
+145 silly gunzTarPerm extractEntry apis/sqladmin/v1beta4.js
+146 silly gunzTarPerm extractEntry apis/storage/v1.js
+147 silly gunzTarPerm extractEntry apis/storage/v1beta1.js
+148 silly gunzTarPerm extractEntry apis/storage/v1beta2.js
+149 silly gunzTarPerm extractEntry apis/tagmanager/v1.js
+150 silly gunzTarPerm extractEntry apis/taskqueue/v1beta1.js
+151 silly gunzTarPerm extractEntry apis/taskqueue/v1beta2.js
+152 silly gunzTarPerm extractEntry apis/tasks/v1.js
+153 silly gunzTarPerm extractEntry apis/translate/v2.js
+154 silly gunzTarPerm extractEntry apis/urlshortener/v1.js
+155 silly gunzTarPerm extractEntry apis/webfonts/v1.js
+156 silly gunzTarPerm extractEntry apis/webmasters/v3.js
+157 silly gunzTarPerm extractEntry apis/youtube/v3.js
+158 silly gunzTarPerm extractEntry apis/youtubeAnalytics/v1.js
+159 silly gunzTarPerm extractEntry apis/youtubeAnalytics/v1beta1.js
+160 silly gunzTarPerm extractEntry .jshintrc
+161 silly gunzTarPerm extractEntry jsdoc-conf.json
+162 silly gunzTarPerm extractEntry lib/apirequest.js
+163 silly gunzTarPerm extractEntry lib/generator.js
+164 silly gunzTarPerm extractEntry lib/googleapis.js
+165 silly gunzTarPerm extractEntry lib/pemverifier.js
+166 silly gunzTarPerm extractEntry lib/transporters.js
+167 silly gunzTarPerm extractEntry lib/utils.js
+168 silly gunzTarPerm extractEntry lib/auth/authclient.js
+169 silly gunzTarPerm extractEntry lib/auth/computeclient.js
+170 silly gunzTarPerm extractEntry lib/auth/jwtclient.js
+171 silly gunzTarPerm extractEntry lib/auth/loginticket.js
+172 silly gunzTarPerm extractEntry lib/auth/oauth2client.js
+173 silly gunzTarPerm extractEntry templates/api-endpoint.js
+174 silly gunzTarPerm extractEntry templates/api-index.js
+175 silly gunzTarPerm extractEntry templates/method-partial.js
+176 silly gunzTarPerm extractEntry templates/resource-partial.js
+177 silly gunzTarPerm extractEntry .travis.yml
+178 silly gunzTarPerm extractEntry scripts/generate.js
+179 silly lockFile a56d482d-ser-npm-googleapis-2-0-2-package tar:///home/azureuser/.npm/googleapis/2.0.2/package
+180 silly lockFile a56d482d-ser-npm-googleapis-2-0-2-package tar:///home/azureuser/.npm/googleapis/2.0.2/package
+181 silly lockFile 85fef7ca-55885-0-5723506170324981-tmp-tgz tar:///home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz
+182 silly lockFile 85fef7ca-55885-0-5723506170324981-tmp-tgz tar:///home/azureuser/tmp/npm-22900-GjRhAH_8/1428831655885-0.5723506170324981/tmp.tgz
+183 silly lockFile 41c9286c--googleapis-googleapis-2-0-2-tgz https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz
+184 silly lockFile 41c9286c--googleapis-googleapis-2-0-2-tgz https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz
+185 silly lockFile a78eae3c-googleapis-2-0-2 googleapis@2.0.2
+186 silly lockFile a78eae3c-googleapis-2-0-2 googleapis@2.0.2
+187 silly lockFile 79216f49-googleapis googleapis@
+188 silly lockFile 79216f49-googleapis googleapis@
+189 silly resolved [ { name: 'googleapis',
+189 silly resolved     version: '2.0.2',
+189 silly resolved     author: { name: 'Google Inc.' },
+189 silly resolved     description: 'Google APIs Client Library for Node.js',
+189 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+189 silly resolved     engines: { node: '>=0.10' },
+189 silly resolved     main: './lib/googleapis',
+189 silly resolved     repository:
+189 silly resolved      { type: 'git',
+189 silly resolved        url: 'https://github.com/google/google-api-nodejs-client.git' },
+189 silly resolved     keywords: [ 'google', 'api', 'google apis', 'client', 'client library' ],
+189 silly resolved     dependencies:
+189 silly resolved      { async: '~0.9.0',
+189 silly resolved        gapitoken: '~0.1.2',
+189 silly resolved        'google-auth-library': '~0.9.3',
+189 silly resolved        request: '~2.51.0',
+189 silly resolved        'string-template': '~0.2.0' },
+189 silly resolved     devDependencies:
+189 silly resolved      { coveralls: '^2.11.1',
+189 silly resolved        istanbul: '~0.3.2',
+189 silly resolved        'js-beautify': '^1.5.1',
+189 silly resolved        jshint: '^2.5.5',
+189 silly resolved        jsdoc: '~3.3.0-alpha9',
+189 silly resolved        mkdirp: '~0.5.0',
+189 silly resolved        mocha: '^1.8.1',
+189 silly resolved        nock: '~0.46.0',
+189 silly resolved        rimraf: '^2.2.8',
+189 silly resolved        swig: '^1.4.2',
+189 silly resolved        url: '~0.10.1',
+189 silly resolved        minimist: '^1.1.0' },
+189 silly resolved     scripts:
+189 silly resolved      { lint: 'jshint lib test scripts apis',
+189 silly resolved        test: 'mocha --reporter spec --timeout 4000',
+189 silly resolved        'generate-apis': 'node scripts/generate',
+189 silly resolved        'generate-docs': 'jsdoc -c jsdoc-conf.json ./README.md',
+189 silly resolved        prepare: 'npm run generate-apis && npm test && npm run lint && npm version patch',
+189 silly resolved        coverage: 'istanbul cover -x \'apis/**\' _mocha -- --reporter spec --timeout 4000',
+189 silly resolved        coveralls: 'istanbul cover -x \'apis/**\' _mocha --report lcovonly -- --reporter spec --timeout 4000 && cat coverage/lcov.info | coveralls' },
+189 silly resolved     license: 'Apache-2.0',
+189 silly resolved     readme: '# Google APIs Node.js Client\n\n[![Build Status][travisimg]][travis]\n[![Code Coverage][coverallsimg]][coveralls]\n\nGoogle\'s officially supported [node.js][node] client library for using\nGoogle APIs. It also supports authorization and authentication with OAuth 2.0.\n\n### Alpha\n\nThis library is in Alpha. We will make an effort to support the library, but we reserve the right to make incompatible changes when necessary.\n\n### Migrating to version `2.x` of this library\n\nIf you\'ve used this library before `1.x`, see our [Migration Guide][migrating]\nto learn about migrating your code from `0.x.x` to `1.x`. It\'s pretty easy :)\n\nIf your code already works with a `1.x` version of this library, no work is required\nto move to `2.x`. However, it is recommended that you update any direct links in your code,\nas explained in the [Migration Guide][migrating].\n\n### Supported APIs\n\nThe full list of supported APIs can be found [here][supported-list]. The API endpoints are automatically generated, so if the API is not in the list, it is currently not supported by this API client library. \n\n### Questions/problems?\n\n* Ask your development related questions on [![Ask a question on Stackoverflow][overflowimg]][stackoverflow]\n* If you\'ve found an bug/issue, please [file it on GitHub][bugs].\n\n### Working with Google Cloud APIs?\n\nIf you\'re working with [Google Cloud Platform][cloudplatform] APIs such as\nDatastore, Cloud Storage or Pub/Sub, consider using [`gcloud`][gcloud], a\nNode idiomatic client for Google Cloud services.\n\n## Installation\n\nThis library is distributed on `npm`. In order to add it as a dependency,\nrun the following command:\n\n``` sh\n$ npm install googleapis --save\n```\n\n## Usage\n\nExample: Creates a URL Shortener client and retrieves the long url of the\ngiven short url:\n\n``` js\nvar google = require(\'googleapis\');\nvar urlshortener = google.urlshortener(\'v1\');\n\nvar params = { shortUrl: \'http://goo.gl/xKbRu3\' };\n\n// get the long url of a shortened url\nurlshortener.url.get(params, function (err, response) {\n  console.log(\'Long url is\', response.longUrl);\n});\n```\n\n### Create a service client\n\nTo interact with the various Google APIs you need to create a service client\nfor that particular API. These are immutable objects you use to make API calls.\n\nExample: Creating a `urlshortener` client with version `v1` of the API.\n\n``` js\nvar google = require(\'googleapis\');\nvar urlshortener = google.urlshortener(\'v1\');\n```\n\nSupported APIs are listed on the [Google APIs Explorer][apiexplorer].\n\n### Authorizing and Authenticating\n\nThis client comes with an [OAuth2][oauth] client that allows you to retrieve an\naccess token and refreshes the token and retry the request seamlessly if token\nis expired. The basics of Google\'s OAuth2 implementation is explained on\n[Google Authorization and Authentication documentation][authdocs].\n\nIn the following examples, you may need a `CLIENT_ID`, `CLIENT_SECRET` and\n`REDIRECT_URL`. You can find these pieces of information by going to the\n[Developer Console][devconsole], clicking your project --> APIs & auth --> credentials.\n\nFor more information about OAuth2 and how it works, [see here][oauth].\n\nA complete sample application that authorizes and authenticates with the OAuth2\nclient is available at [`examples/oauth2.js`][oauthexample].\n\n#### Generating an authentication URL\n\nTo ask for permissions from a user to retrieve an access token, you\nredirect them to a consent page. To create a consent page URL:\n\n``` js\nvar google = require(\'googleapis\');\nvar OAuth2 = google.auth.OAuth2;\n\nvar oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);\n\n// generate a url that asks permissions for Google+ and Google Calendar scopes\nvar scopes = [\n  \'https://www.googleapis.com/auth/plus.me\',\n  \'https://www.googleapis.com/auth/calendar\'\n];\n\nvar url = oauth2Client.generateAuthUrl({\n  access_type: \'offline\', // \'online\' (default) or \'offline\' (gets refresh_token)\n  scope: scopes // If you only need one scope you can pass it as string\n});\n```\n\n#### Retrieve authorization code\n\nOnce a user has given permissions on the consent page, Google will redirect\nthe page to the redirect URL you have provided with a code query parameter.\n\n    GET /oauthcallback?code={authorizationCode}\n\n#### Retrieve access token\n\nWith the code returned, you can ask for an access token as shown below:\n\n``` js\noauth2Client.getToken(code, function(err, tokens) {\n  // Now tokens contains an access_token and an optional refresh_token. Save them.\n  if(!err) {\n    oauth2Client.setCredentials(tokens);\n  }\n});\n```\n\n#### Setting global or service-level auth\n\nYou can set the `auth` as a global or service-level option so you don\'t need to\nspecify it every request.\n\nExample: Setting a global `auth` option.\n\n``` js\nvar google = require(\'googleapis\');\nvar OAuth2 = google.auth.OAuth2;\nvar oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);\ngoogle.options({ auth: oauth2Client }); // set auth as a global default\n```\n\nExample: Setting a service-level `auth` option.\n\n``` js\nvar google = require(\'googleapis\');\nvar OAuth2 = google.auth.OAuth2;\nvar oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);\n\nvar drive = google.drive({ version: \'v2\', auth: oauth2Client });\n```\n\nSee the [Options section][options] for more information.\n\n#### Making Authenticated Requests\n\nYou can start using OAuth2 to authorize and authenticate your\nrequests to Google APIs with the retrieved tokens. If you provide a\n`refresh_token` and the `access_token` has expired, the `access_token` will be\nautomatically refreshed and the request is replayed.\n\nFollowing sample retrieves Google+ profile of the authenticated user.\n\n``` js\nvar google = require(\'googleapis\');\nvar plus = google.plus(\'v1\');\nvar OAuth2 = google.auth.OAuth2;\nvar oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);\n\n// Retrieve tokens via token exchange explained above or set them:\noauth2Client.setCredentials({\n  access_token: \'ACCESS TOKEN HERE\',\n  refresh_token: \'REFRESH TOKEN HERE\'\n});\n\nplus.people.get({ userId: \'me\', auth: oauth2Client }, function(err, response) {\n  // handle err and response\n});\n```\n\n#### Manually refreshing access token\n\nIf you need to manually refresh the `access_token` associated with your OAuth2\nclient, make sure you have a `refresh_token` set in your credentials first and\nthen call:\n\n``` js\noauth2Client.refreshAccessToken(function(err, tokens) {\n  // your access_token is now refreshed and stored in oauth2Client\n  // store these new tokens in a safe place (e.g. database)\n});\n```\n\n#### Using API keys\n\nYou may need to send an API key with the request you are going to make.\nThe following uses an API key to make a request to the Google+ API service to\nretrieve a person\'s profile given a userId:\n\n``` js\nvar google = require(\'googleapis\');\nvar plus = google.plus(\'v1\');\n\nvar API_KEY = \'ABC123\'; // specify your API key here\n\nplus.people.get({ auth: API_KEY, userId: \'+google\' }, function(err, user) {\n  console.log(\'Result: \' + (err ? err.message : user.displayName));\n});\n```\n\nAlternatively, you can specify the `key` parameter and it will get used:\n\n``` js\nplus.people.get({ key: API_KEY, userId: \'+google\' }, function(err, user) {\n  console.log(\'Result: \' + (err ? err.message : user.displayName));\n});\n```\n\nTo learn more about API keys, please see the [documentation][usingkeys].\n\n#### Using JWT (Service Tokens)\n\nConfigure a JWT auth client with your service account email and the pem file that contains your private key. Google Developers Console only provide `.p12` files, but you can convert a `.p12` to `.pem` with the following command:\n\n``` sh\nopenssl pkcs12 -in key.p12 -nocerts -passin pass:notasecret -nodes -out key.pem\n```\n\nConstruct a JWT client, and authenticate your requests.\n\n``` js\nvar jwtClient = new google.auth.JWT(\n  \'serviceaccount@email.com\',\n  \'/path/to/key.pem\',\n  null,\n  [scope1, scope2],\n  \'bar@subjectaccount.com\');\n\njwtClient.authorize(function(err, tokens) {\n  if (err) {\n    console.log(err);\n    return;\n  }\n\n  // Make an authorized request to list Drive files.\n  drive.files.list({ auth: jwtClient }, function(err, resp) {\n    // handle err and response\n  });\n});\n```\n\n#### Choosing the correct credential type automatically\n\nRather than manually creating an OAuth2 client, JWT client, or Compute client, the auth\nlibrary can create the correct credential type for you, depending upon the environment your\ncode is running under.\n\nFor example, a JWT auth client will be created when your code is running\non your local developer machine, and a Compute client will be created when the same code\nis running on a configured instance of Google Compute Engine.\n\nThe code below shows how to retrieve a default credential type, depending upon the runtime\nenvironment. The createScopedRequired must be called to determine when you need to pass\nin the scopes manually, and when they have been set for you automatically based on the \nconfigured runtime environment.\n\n``` js\ngoogle.auth.getApplicationDefault(function(err, authClient) {\n  if (err) {\n    res.send(\'Failed to get the default credentials: \' + String(err));\n    return;\n  }\n  // The createScopedRequired method returns true when running on GAE or a local developer\n  // machine. In that case, the desired scopes must be passed in manually. When the code is\n  // running in GCE or a Managed VM, the scopes are pulled from the GCE metadata server.\n  // See https://cloud.google.com/compute/docs/authentication for more information.\n  if (authClient.createScopedRequired && authClient.createScopedRequired()) {\n    // Scopes can be specified either as an array or as a single, space-delimited string.\n    authClient = authClient.createScoped([\'https://www.googleapis.com/auth/compute\']);\n  }\n  // Fetch the list of GCE zones within a project.\n  // NOTE: You must fill in your valid project ID before running this sample!\n  var projectId = \'fill in your project id here!\';\n  compute.zones.list({ project: projectId, auth: authClient }, function(error, result) {\n    console.log(error, result);\n  });\n  ```\n\n### Media Uploads\n\nThis client supports multipart media uploads. The resource parameters are\nspecified in the `resource` parameter object, and the media itself is\nspecified in the `media.body` parameter with mime-type specified in `media.mimeType`.\n\nExample: Upload a plain text file to Google Drive with the title "Test" and\ncontents "Hello World".\n\n``` js\nvar drive = google.drive({ version: \'v2\', auth: oauth2Client });\n\ndrive.files.insert({\n  resource: {\n    title: \'Test\',\n    mimeType: \'text/plain\'\n  },\n  media: {\n    mimeType: \'text/plain\',\n    body: \'Hello World\'\n  }\n}, callback);\n```\n\nYou can also upload media by specifying `media.body` as a [Readable stream][stream].\nThis can allow you to upload very large files that cannot fit into memory.\n\nNote: Your readable stream may be [unstable][stability]. Use at your own risk.\n\nExample: Upload an image to Google Drive from a readable stream.\n\n``` js\nvar fs = require(\'fs\');\nvar drive = google.drive({ version: \'v2\', auth: oauth2Client });\n\ndrive.files.insert({\n  resource: {\n    title: \'testimage.png\',\n    mimeType: \'image/png\'\n  },\n  media: {\n    mimeType: \'image/png\',\n    body: fs.createReadStream(\'awesome.png\') // read streams are awesome!\n  }\n}, callback);\n```\n\nFor more examples of creation and modification requests with media attachments,\ntake a look at the `examples/mediaupload.js` sample.\n\n## Exposing request object\n\nEvery request to the API returns a [`request`][request] object, allowing you to track\nthe request\'s progress or general information about the request.\n\n``` js\nvar req = drive.files.insert(/* ... */);\nconsole.log(req.uri.href); // print out the request\'s URL.\n```\n\n## Options\n\nFor more fine-tuned control over how your API calls are made,\nwe provide you with the ability to specify additional options that can\nbe applied directly to the [`mikeal/request`][request] object used in\nthis library to make network calls to the API.\n\nYou may specify additional options either in the global `google` object or on a\nservice client basis.\n\n### Available options\n\nThe options you specify are attached to the `request` object so whatever\n`request` supports, this library supports. You may also specify global or per-service request parameters that will be attached to all API calls you make.\n\nA full list of supported options can be [found here][requestopts].\n\n### Global options\n\n#### Example: Specifying a default proxy and `auth` to be used for each request.\n\n``` js\nvar google = require(\'googleapis\');\ngoogle.options({ proxy: \'http://proxy.example.com\', auth: auth });\n\n// All requests made with this object will use these settings unless overridden.\n```\n\n#### Example: Specifying global request parameters.\n\n```js\nvar google = require(\'googleapis\');\ngoogle.options({ params: { quotaUser: \'user123@example.com\' } });\n\n// All requests from all services will contain the above query parameter\n// unless overriden either in a service client or in individual API calls.\n```\n\n### Service-client options\n\nYou can also specify options when creating a service client.\n\n#### Example: Specifying a default `auth` option (API key or OAuth2 client)\n\n```js\nvar auth = \'API KEY\'; // or you could use oauth2Client\nvar urlshortener = google.urlshortener({ version: \'v1\', auth: auth });\n\n// All requests made with this object will use the specified auth.\n```\n\nBy doing this, every API call made with this service client will use `\'API KEY\'`\nto authenticate.\n\n**Note:** Created clients are **immutable** so you must create a new one if you\nwant to specify different options.\n\n#### Example: Specifying default service client query parameters\n\n```js\nvar urlshortener = google.urlshortener({\n  version: \'v1\',\n  params: { quotaUser: \'user123@example.com\' }\n});\n// All requests made with this service client will contain the\n// quotaUser query parameter unless overriden in individual API calls.\n\n// Calls with this drive client will NOT contain the quotaUser query parameter.\nvar drive = google.drive(\'v2\');\n```\n\n### Request-level options\n\nYou can specify an `auth` object to be used per request. Each request also\ninherits the options specified at the service level and global level.\n\n## License\n\nThis library is licensed under Apache 2.0. Full license text is\navailable in [COPYING][copying].\n\n## Contributing\n\nSee [CONTRIBUTING][contributing].\n\n[travisimg]: https://api.travis-ci.org/google/google-api-nodejs-client.svg\n[supported-list]: https://developers.google.com/apis-explorer/\n[bugs]: https://github.com/google/google-api-nodejs-client/issues\n[node]: http://nodejs.org/\n[travis]: https://travis-ci.org/google/google-api-nodejs-client\n[stackoverflow]: http://stackoverflow.com/questions/tagged/google-api-nodejs-client\n[apiexplorer]: https://developers.google.com/apis-explorer\n[urlshort]: https://developers.google.com/url-shortener/\n[usingkeys]: https://developers.google.com/console/help/#UsingKeys\n[contributing]: https://github.com/google/google-api-nodejs-client/tree/master/CONTRIBUTING.md\n[copying]: https://github.com/google/google-api-nodejs-client/tree/master/COPYING\n[authdocs]: https://developers.google.com/accounts/docs/OAuth2Login\n[request]: https://github.com/mikeal/request\n[requestopts]: https://github.com/mikeal/request#requestoptions-callback\n[stream]: http://nodejs.org/api/stream.html#stream_class_stream_readable\n[migrating]: https://github.com/google/google-api-nodejs-client/tree/master/MIGRATING.md\n[stability]: http://nodejs.org/api/stream.html#stream_stream\n[overflowimg]: https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/stackoveflow-tag.png\n[devconsole]: https://console.developer.google.com\n[oauth]: https://developers.google.com/accounts/docs/OAuth2\n[oauthexample]: https://github.com/google/google-api-nodejs-client/tree/master/examples/oauth2.js\n[options]: https://github.com/google/google-api-nodejs-client/tree/master#options\n[gcloud]: https://github.com/GoogleCloudPlatform/gcloud-node\n[cloudplatform]: https://developers.google.com/cloud/\n[coveralls]: https://coveralls.io/r/google/google-api-nodejs-client?branch=master\n[coverallsimg]: https://img.shields.io/coveralls/google/google-api-nodejs-client.svg\n',
+189 silly resolved     readmeFilename: 'README.md',
+189 silly resolved     bugs: { url: 'https://github.com/google/google-api-nodejs-client/issues' },
+189 silly resolved     homepage: 'https://github.com/google/google-api-nodejs-client',
+189 silly resolved     _id: 'googleapis@2.0.2',
+189 silly resolved     _shasum: '77eae573d6185f98879f2f0440cb61c0a2d49b4d',
+189 silly resolved     _from: 'googleapis@',
+189 silly resolved     _resolved: 'https://registry.npmjs.org/googleapis/-/googleapis-2.0.2.tgz' } ]
+190 info install googleapis@2.0.2 into /home/azureuser
+191 info installOne googleapis@2.0.2
+192 info /home/azureuser/node_modules/googleapis unbuild
+193 verbose tar unpack /home/azureuser/.npm/googleapis/2.0.2/package.tgz
+194 silly lockFile 3f65fef6-zureuser-node-modules-googleapis tar:///home/azureuser/node_modules/googleapis
+195 verbose lock tar:///home/azureuser/node_modules/googleapis /home/azureuser/.npm/3f65fef6-zureuser-node-modules-googleapis.lock
+196 silly lockFile 637d281b-npm-googleapis-2-0-2-package-tgz tar:///home/azureuser/.npm/googleapis/2.0.2/package.tgz
+197 verbose lock tar:///home/azureuser/.npm/googleapis/2.0.2/package.tgz /home/azureuser/.npm/637d281b-npm-googleapis-2-0-2-package-tgz.lock
+198 silly gunzTarPerm modes [ '755', '644' ]
+199 silly gunzTarPerm extractEntry package.json
+200 silly gunzTarPerm extractEntry .npmignore
+201 silly gunzTarPerm extractEntry README.md
+202 silly gunzTarPerm extractEntry CONTRIBUTING.md
+203 silly gunzTarPerm extractEntry COPYING
+204 silly gunzTarPerm extractEntry MIGRATING.md
+205 silly gunzTarPerm extractEntry apis/index.js
+206 silly gunzTarPerm extractEntry apis/gamesConfiguration/v1configuration.js
+207 silly gunzTarPerm extractEntry apis/admin/directory_v1.js
+208 silly gunzTarPerm extractEntry apis/admin/email_migration_v2.js
+209 silly gunzTarPerm extractEntry apis/admin/reports_v1.js
+210 silly gunzTarPerm extractEntry apis/adsense/v1.2.js
+211 silly gunzTarPerm extractEntry apis/adsense/v1.3.js
+212 silly gunzTarPerm extractEntry apis/adsense/v1.4.js
+213 silly gunzTarPerm extractEntry apis/adsensehost/v4.1.js
+214 silly gunzTarPerm extractEntry apis/analytics/v2.4.js
+215 silly gunzTarPerm extractEntry apis/analytics/v3.js
+216 silly gunzTarPerm extractEntry apis/androidenterprise/v1.js
+217 silly gunzTarPerm extractEntry apis/androidpublisher/v1.1.js
+218 silly gunzTarPerm extractEntry apis/androidpublisher/v1.js
+219 silly gunzTarPerm extractEntry apis/androidpublisher/v2.js
+220 silly gunzTarPerm extractEntry apis/appsactivity/v1.js
+221 silly gunzTarPerm extractEntry apis/appstate/v1.js
+222 silly gunzTarPerm extractEntry apis/audit/v1.js
+223 silly gunzTarPerm extractEntry apis/autoscaler/v1beta2.js
+224 silly gunzTarPerm extractEntry apis/bigquery/v2.js
+225 silly gunzTarPerm extractEntry apis/blogger/v2.js
+226 silly gunzTarPerm extractEntry apis/blogger/v3.js
+227 silly gunzTarPerm extractEntry apis/books/v1.js
+228 silly gunzTarPerm extractEntry apis/calendar/v3.js
+229 silly gunzTarPerm extractEntry apis/civicinfo/v2.js
+230 silly gunzTarPerm extractEntry apis/cloudlatencytest/v2.js
+231 silly gunzTarPerm extractEntry apis/cloudmonitoring/v2beta2.js
+232 silly gunzTarPerm extractEntry apis/compute/v1.js
+233 silly gunzTarPerm extractEntry apis/container/v1beta1.js
+234 silly gunzTarPerm extractEntry apis/content/v2.js
+235 silly gunzTarPerm extractEntry apis/coordinate/v1.js
+236 silly gunzTarPerm extractEntry apis/customsearch/v1.js
+237 silly gunzTarPerm extractEntry apis/dataflow/v1beta3.js
+238 silly gunzTarPerm extractEntry apis/datastore/v1beta1.js
+239 silly gunzTarPerm extractEntry apis/datastore/v1beta2.js
+240 silly gunzTarPerm extractEntry apis/deploymentmanager/v2beta1.js
+241 silly gunzTarPerm extractEntry apis/dfareporting/v1.1.js
+242 silly gunzTarPerm extractEntry apis/dfareporting/v1.2.js
+243 silly gunzTarPerm extractEntry apis/dfareporting/v1.3.js
+244 silly gunzTarPerm extractEntry apis/dfareporting/v1.js
+245 silly gunzTarPerm extractEntry apis/dfareporting/v2.0.js
+246 silly gunzTarPerm extractEntry apis/discovery/v1.js
+247 silly gunzTarPerm extractEntry apis/dns/v1beta1.js
+248 silly gunzTarPerm extractEntry apis/doubleclickbidmanager/v1.js
+249 silly gunzTarPerm extractEntry apis/doubleclicksearch/v2.js
+250 silly gunzTarPerm extractEntry apis/drive/v1.js
+251 silly gunzTarPerm extractEntry apis/drive/v2.js
+252 silly gunzTarPerm extractEntry apis/fitness/v1.js
+253 silly gunzTarPerm extractEntry apis/freebase/v1-sandbox.js
+254 silly gunzTarPerm extractEntry apis/freebase/v1.js
+255 silly gunzTarPerm extractEntry apis/freebase/v1sandbox.js
+256 silly gunzTarPerm extractEntry apis/fusiontables/v1.js
+257 silly gunzTarPerm extractEntry apis/fusiontables/v2.js
+258 silly gunzTarPerm extractEntry apis/games/v1.js
+259 silly gunzTarPerm extractEntry apis/adexchangeseller/v1.1.js
+260 silly gunzTarPerm extractEntry apis/adexchangeseller/v1.js
+261 silly gunzTarPerm extractEntry apis/adexchangeseller/v2.0.js
+262 silly gunzTarPerm extractEntry apis/gamesManagement/v1management.js
+263 silly gunzTarPerm extractEntry apis/gan/v1beta1.js
+264 silly gunzTarPerm extractEntry apis/genomics/v1beta2.js
+265 silly gunzTarPerm extractEntry apis/gmail/v1.js
+266 silly gunzTarPerm extractEntry apis/groupsmigration/v1.js
+267 silly gunzTarPerm extractEntry apis/groupssettings/v1.js
+268 silly gunzTarPerm extractEntry apis/identitytoolkit/v3.js
+269 silly gunzTarPerm extractEntry apis/adexchangebuyer/v1.2.js
+270 silly gunzTarPerm extractEntry apis/adexchangebuyer/v1.3.js
+271 silly gunzTarPerm extractEntry apis/licensing/v1.js
+272 silly gunzTarPerm extractEntry apis/manager/v1beta2.js
+273 silly gunzTarPerm extractEntry apis/mapsengine/exp2.js
+274 silly gunzTarPerm extractEntry apis/mapsengine/v1.js
+275 silly gunzTarPerm extractEntry apis/mirror/v1.js
+276 silly gunzTarPerm extractEntry apis/oauth2/v1.js
+277 silly gunzTarPerm extractEntry apis/oauth2/v2.js
+278 silly gunzTarPerm extractEntry apis/pagespeedonline/v1.js
+279 silly gunzTarPerm extractEntry apis/pagespeedonline/v2.js
+280 silly gunzTarPerm extractEntry apis/plus/v1.js
+281 silly gunzTarPerm extractEntry apis/plusDomains/v1.js
+282 silly gunzTarPerm extractEntry apis/prediction/v1.2.js
+283 silly gunzTarPerm extractEntry apis/prediction/v1.3.js
+284 silly gunzTarPerm extractEntry apis/prediction/v1.4.js
+285 silly gunzTarPerm extractEntry apis/prediction/v1.5.js
+286 silly gunzTarPerm extractEntry apis/prediction/v1.6.js
+287 silly gunzTarPerm extractEntry apis/pubsub/v1beta1.js
+288 silly gunzTarPerm extractEntry apis/pubsub/v1beta1a.js
+289 silly gunzTarPerm extractEntry apis/pubsub/v1beta2.js
+290 silly gunzTarPerm extractEntry apis/qpxExpress/v1.js
+291 silly gunzTarPerm extractEntry apis/replicapool/v1beta1.js
+292 silly gunzTarPerm extractEntry apis/replicapool/v1beta2.js
+293 silly gunzTarPerm extractEntry apis/replicapoolupdater/v1beta1.js
+294 silly gunzTarPerm extractEntry apis/reseller/v1.js
+295 silly gunzTarPerm extractEntry apis/reseller/v1sandbox.js
+296 silly gunzTarPerm extractEntry apis/resourceviews/v1beta1.js
+297 silly gunzTarPerm extractEntry apis/resourceviews/v1beta2.js
+298 silly gunzTarPerm extractEntry apis/siteVerification/v1.js
+299 silly gunzTarPerm extractEntry apis/spectrum/v1explorer.js
+300 silly gunzTarPerm extractEntry apis/sqladmin/v1beta1.js
+301 silly gunzTarPerm extractEntry apis/sqladmin/v1beta3.js
+302 silly gunzTarPerm extractEntry apis/sqladmin/v1beta4.js
+303 silly gunzTarPerm extractEntry apis/storage/v1.js
+304 silly gunzTarPerm extractEntry apis/storage/v1beta1.js
+305 silly gunzTarPerm extractEntry apis/storage/v1beta2.js
+306 silly gunzTarPerm extractEntry apis/tagmanager/v1.js
+307 silly gunzTarPerm extractEntry apis/taskqueue/v1beta1.js
+308 silly gunzTarPerm extractEntry apis/taskqueue/v1beta2.js
+309 silly gunzTarPerm extractEntry apis/tasks/v1.js
+310 silly gunzTarPerm extractEntry apis/translate/v2.js
+311 silly gunzTarPerm extractEntry apis/urlshortener/v1.js
+312 silly gunzTarPerm extractEntry apis/webfonts/v1.js
+313 silly gunzTarPerm extractEntry apis/webmasters/v3.js
+314 silly gunzTarPerm extractEntry apis/youtube/v3.js
+315 silly gunzTarPerm extractEntry apis/youtubeAnalytics/v1.js
+316 silly gunzTarPerm extractEntry apis/youtubeAnalytics/v1beta1.js
+317 silly gunzTarPerm extractEntry .jshintrc
+318 silly gunzTarPerm extractEntry jsdoc-conf.json
+319 silly gunzTarPerm extractEntry lib/apirequest.js
+320 silly gunzTarPerm extractEntry lib/generator.js
+321 silly gunzTarPerm extractEntry lib/googleapis.js
+322 silly gunzTarPerm extractEntry lib/pemverifier.js
+323 silly gunzTarPerm extractEntry lib/transporters.js
+324 silly gunzTarPerm extractEntry lib/utils.js
+325 silly gunzTarPerm extractEntry lib/auth/authclient.js
+326 silly gunzTarPerm extractEntry lib/auth/computeclient.js
+327 silly gunzTarPerm extractEntry lib/auth/jwtclient.js
+328 silly gunzTarPerm extractEntry lib/auth/loginticket.js
+329 silly gunzTarPerm extractEntry lib/auth/oauth2client.js
+330 silly gunzTarPerm extractEntry templates/api-endpoint.js
+331 silly gunzTarPerm extractEntry templates/api-index.js
+332 silly gunzTarPerm extractEntry templates/method-partial.js
+333 silly gunzTarPerm extractEntry templates/resource-partial.js
+334 silly gunzTarPerm extractEntry .travis.yml
+335 silly gunzTarPerm extractEntry scripts/generate.js
+336 silly lockFile 3f65fef6-zureuser-node-modules-googleapis tar:///home/azureuser/node_modules/googleapis
+337 silly lockFile 3f65fef6-zureuser-node-modules-googleapis tar:///home/azureuser/node_modules/googleapis
+338 silly lockFile 637d281b-npm-googleapis-2-0-2-package-tgz tar:///home/azureuser/.npm/googleapis/2.0.2/package.tgz
+339 silly lockFile 637d281b-npm-googleapis-2-0-2-package-tgz tar:///home/azureuser/.npm/googleapis/2.0.2/package.tgz
+340 info preinstall googleapis@2.0.2
+341 verbose readDependencies using package.json deps
+342 verbose readDependencies using package.json deps
+343 verbose cache add [ 'google-auth-library@~0.9.3', null ]
+344 verbose cache add name=undefined spec="google-auth-library@~0.9.3" args=["google-auth-library@~0.9.3",null]
+345 verbose parsed url { protocol: null,
+345 verbose parsed url   slashes: null,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: null,
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: null,
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: 'google-auth-library@~0.9.3',
+345 verbose parsed url   path: 'google-auth-library@~0.9.3',
+345 verbose parsed url   href: 'google-auth-library@~0.9.3' }
+346 verbose cache add name="google-auth-library" spec="~0.9.3" args=["google-auth-library","~0.9.3"]
+347 verbose parsed url { protocol: null,
+347 verbose parsed url   slashes: null,
+347 verbose parsed url   auth: null,
+347 verbose parsed url   host: null,
+347 verbose parsed url   port: null,
+347 verbose parsed url   hostname: null,
+347 verbose parsed url   hash: null,
+347 verbose parsed url   search: null,
+347 verbose parsed url   query: null,
+347 verbose parsed url   pathname: '~0.9.3',
+347 verbose parsed url   path: '~0.9.3',
+347 verbose parsed url   href: '~0.9.3' }
+348 verbose addNamed [ 'google-auth-library', '~0.9.3' ]
+349 verbose addNamed [ null, '>=0.9.3-0 <0.10.0-0' ]
+350 silly lockFile b1ba247d-google-auth-library-0-9-3 google-auth-library@~0.9.3
+351 verbose lock google-auth-library@~0.9.3 /home/azureuser/.npm/b1ba247d-google-auth-library-0-9-3.lock
+352 verbose cache add [ 'request@~2.51.0', null ]
+353 verbose cache add name=undefined spec="request@~2.51.0" args=["request@~2.51.0",null]
+354 verbose parsed url { protocol: null,
+354 verbose parsed url   slashes: null,
+354 verbose parsed url   auth: null,
+354 verbose parsed url   host: null,
+354 verbose parsed url   port: null,
+354 verbose parsed url   hostname: null,
+354 verbose parsed url   hash: null,
+354 verbose parsed url   search: null,
+354 verbose parsed url   query: null,
+354 verbose parsed url   pathname: 'request@~2.51.0',
+354 verbose parsed url   path: 'request@~2.51.0',
+354 verbose parsed url   href: 'request@~2.51.0' }
+355 verbose cache add name="request" spec="~2.51.0" args=["request","~2.51.0"]
+356 verbose parsed url { protocol: null,
+356 verbose parsed url   slashes: null,
+356 verbose parsed url   auth: null,
+356 verbose parsed url   host: null,
+356 verbose parsed url   port: null,
+356 verbose parsed url   hostname: null,
+356 verbose parsed url   hash: null,
+356 verbose parsed url   search: null,
+356 verbose parsed url   query: null,
+356 verbose parsed url   pathname: '~2.51.0',
+356 verbose parsed url   path: '~2.51.0',
+356 verbose parsed url   href: '~2.51.0' }
+357 verbose addNamed [ 'request', '~2.51.0' ]
+358 verbose addNamed [ null, '>=2.51.0-0 <2.52.0-0' ]
+359 silly lockFile cffdd4b2-request-2-51-0 request@~2.51.0
+360 verbose lock request@~2.51.0 /home/azureuser/.npm/cffdd4b2-request-2-51-0.lock
+361 verbose cache add [ 'string-template@~0.2.0', null ]
+362 verbose cache add name=undefined spec="string-template@~0.2.0" args=["string-template@~0.2.0",null]
+363 verbose parsed url { protocol: null,
+363 verbose parsed url   slashes: null,
+363 verbose parsed url   auth: null,
+363 verbose parsed url   host: null,
+363 verbose parsed url   port: null,
+363 verbose parsed url   hostname: null,
+363 verbose parsed url   hash: null,
+363 verbose parsed url   search: null,
+363 verbose parsed url   query: null,
+363 verbose parsed url   pathname: 'string-template@~0.2.0',
+363 verbose parsed url   path: 'string-template@~0.2.0',
+363 verbose parsed url   href: 'string-template@~0.2.0' }
+364 verbose cache add name="string-template" spec="~0.2.0" args=["string-template","~0.2.0"]
+365 verbose parsed url { protocol: null,
+365 verbose parsed url   slashes: null,
+365 verbose parsed url   auth: null,
+365 verbose parsed url   host: null,
+365 verbose parsed url   port: null,
+365 verbose parsed url   hostname: null,
+365 verbose parsed url   hash: null,
+365 verbose parsed url   search: null,
+365 verbose parsed url   query: null,
+365 verbose parsed url   pathname: '~0.2.0',
+365 verbose parsed url   path: '~0.2.0',
+365 verbose parsed url   href: '~0.2.0' }
+366 verbose addNamed [ 'string-template', '~0.2.0' ]
+367 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+368 silly lockFile a46712c3-string-template-0-2-0 string-template@~0.2.0
+369 verbose lock string-template@~0.2.0 /home/azureuser/.npm/a46712c3-string-template-0-2-0.lock
+370 verbose cache add [ 'async@~0.9.0', null ]
+371 verbose cache add name=undefined spec="async@~0.9.0" args=["async@~0.9.0",null]
+372 verbose parsed url { protocol: null,
+372 verbose parsed url   slashes: null,
+372 verbose parsed url   auth: null,
+372 verbose parsed url   host: null,
+372 verbose parsed url   port: null,
+372 verbose parsed url   hostname: null,
+372 verbose parsed url   hash: null,
+372 verbose parsed url   search: null,
+372 verbose parsed url   query: null,
+372 verbose parsed url   pathname: 'async@~0.9.0',
+372 verbose parsed url   path: 'async@~0.9.0',
+372 verbose parsed url   href: 'async@~0.9.0' }
+373 verbose cache add name="async" spec="~0.9.0" args=["async","~0.9.0"]
+374 verbose parsed url { protocol: null,
+374 verbose parsed url   slashes: null,
+374 verbose parsed url   auth: null,
+374 verbose parsed url   host: null,
+374 verbose parsed url   port: null,
+374 verbose parsed url   hostname: null,
+374 verbose parsed url   hash: null,
+374 verbose parsed url   search: null,
+374 verbose parsed url   query: null,
+374 verbose parsed url   pathname: '~0.9.0',
+374 verbose parsed url   path: '~0.9.0',
+374 verbose parsed url   href: '~0.9.0' }
+375 verbose addNamed [ 'async', '~0.9.0' ]
+376 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+377 silly lockFile 38be4a8c-async-0-9-0 async@~0.9.0
+378 verbose lock async@~0.9.0 /home/azureuser/.npm/38be4a8c-async-0-9-0.lock
+379 verbose cache add [ 'gapitoken@~0.1.2', null ]
+380 verbose cache add name=undefined spec="gapitoken@~0.1.2" args=["gapitoken@~0.1.2",null]
+381 verbose parsed url { protocol: null,
+381 verbose parsed url   slashes: null,
+381 verbose parsed url   auth: null,
+381 verbose parsed url   host: null,
+381 verbose parsed url   port: null,
+381 verbose parsed url   hostname: null,
+381 verbose parsed url   hash: null,
+381 verbose parsed url   search: null,
+381 verbose parsed url   query: null,
+381 verbose parsed url   pathname: 'gapitoken@~0.1.2',
+381 verbose parsed url   path: 'gapitoken@~0.1.2',
+381 verbose parsed url   href: 'gapitoken@~0.1.2' }
+382 verbose cache add name="gapitoken" spec="~0.1.2" args=["gapitoken","~0.1.2"]
+383 verbose parsed url { protocol: null,
+383 verbose parsed url   slashes: null,
+383 verbose parsed url   auth: null,
+383 verbose parsed url   host: null,
+383 verbose parsed url   port: null,
+383 verbose parsed url   hostname: null,
+383 verbose parsed url   hash: null,
+383 verbose parsed url   search: null,
+383 verbose parsed url   query: null,
+383 verbose parsed url   pathname: '~0.1.2',
+383 verbose parsed url   path: '~0.1.2',
+383 verbose parsed url   href: '~0.1.2' }
+384 verbose addNamed [ 'gapitoken', '~0.1.2' ]
+385 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+386 silly lockFile 77f4f2fc-gapitoken-0-1-2 gapitoken@~0.1.2
+387 verbose lock gapitoken@~0.1.2 /home/azureuser/.npm/77f4f2fc-gapitoken-0-1-2.lock
+388 silly addNameRange { name: 'google-auth-library',
+388 silly addNameRange   range: '>=0.9.3-0 <0.10.0-0',
+388 silly addNameRange   hasData: false }
+389 silly addNameRange { name: 'request',
+389 silly addNameRange   range: '>=2.51.0-0 <2.52.0-0',
+389 silly addNameRange   hasData: false }
+390 silly addNameRange { name: 'string-template',
+390 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+390 silly addNameRange   hasData: false }
+391 verbose url raw google-auth-library
+392 verbose url resolving [ 'https://registry.npmjs.org/', './google-auth-library' ]
+393 verbose url resolved https://registry.npmjs.org/google-auth-library
+394 info trying registry request attempt 1 at 09:40:58
+395 http GET https://registry.npmjs.org/google-auth-library
+396 silly addNameRange { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+397 silly addNameRange { name: 'gapitoken',
+397 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+397 silly addNameRange   hasData: false }
+398 verbose url raw string-template
+399 verbose url resolving [ 'https://registry.npmjs.org/', './string-template' ]
+400 verbose url resolved https://registry.npmjs.org/string-template
+401 info trying registry request attempt 1 at 09:40:58
+402 http GET https://registry.npmjs.org/string-template
+403 verbose url raw gapitoken
+404 verbose url resolving [ 'https://registry.npmjs.org/', './gapitoken' ]
+405 verbose url resolved https://registry.npmjs.org/gapitoken
+406 info trying registry request attempt 1 at 09:40:58
+407 http GET https://registry.npmjs.org/gapitoken
+408 verbose url raw request
+409 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+410 verbose url resolved https://registry.npmjs.org/request
+411 info trying registry request attempt 1 at 09:40:58
+412 verbose etag "EYRCPHK8WX9HI8A4U1Z6I3ANV"
+413 http GET https://registry.npmjs.org/request
+414 verbose url raw async
+415 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+416 verbose url resolved https://registry.npmjs.org/async
+417 info trying registry request attempt 1 at 09:40:58
+418 verbose etag "B8EIC3GACVUX13XPEJMQ4C23C"
+419 http GET https://registry.npmjs.org/async
+420 http 304 https://registry.npmjs.org/request
+421 silly registry.get cb [ 304,
+421 silly registry.get   { date: 'Sun, 12 Apr 2015 09:40:57 GMT',
+421 silly registry.get     server: 'Apache',
+421 silly registry.get     via: '1.1 varnish',
+421 silly registry.get     'last-modified': 'Sun, 12 Apr 2015 09:40:57 GMT',
+421 silly registry.get     'cache-control': 'max-age=60',
+421 silly registry.get     etag: '"EYRCPHK8WX9HI8A4U1Z6I3ANV"',
+421 silly registry.get     age: '25',
+421 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
+421 silly registry.get     'x-cache': 'HIT',
+421 silly registry.get     'x-cache-hits': '1',
+421 silly registry.get     'x-timer': 'S1428831657.828227,VS0,VE1',
+421 silly registry.get     vary: 'Accept',
+421 silly registry.get     'content-length': '0',
+421 silly registry.get     'keep-alive': 'timeout=10, max=50',
+421 silly registry.get     connection: 'Keep-Alive' } ]
+422 verbose etag request from cache
+423 http 304 https://registry.npmjs.org/async
+424 silly registry.get cb [ 304,
+424 silly registry.get   { date: 'Sun, 12 Apr 2015 09:40:57 GMT',
+424 silly registry.get     server: 'Apache',
+424 silly registry.get     via: '1.1 varnish',
+424 silly registry.get     'last-modified': 'Sun, 12 Apr 2015 09:40:57 GMT',
+424 silly registry.get     'cache-control': 'max-age=60',
+424 silly registry.get     etag: '"B8EIC3GACVUX13XPEJMQ4C23C"',
+424 silly registry.get     age: '5',
+424 silly registry.get     'x-served-by': 'cache-atl6234-ATL',
+424 silly registry.get     'x-cache': 'HIT',
+424 silly registry.get     'x-cache-hits': '1',
+424 silly registry.get     'x-timer': 'S1428831657.833547,VS0,VE1',
+424 silly registry.get     vary: 'Accept',
+424 silly registry.get     'content-length': '0',
+424 silly registry.get     'keep-alive': 'timeout=10, max=50',
+424 silly registry.get     connection: 'Keep-Alive' } ]
+425 verbose etag async from cache
+426 http 200 https://registry.npmjs.org/gapitoken
+427 silly registry.get cb [ 200,
+427 silly registry.get   { date: 'Sun, 12 Apr 2015 09:40:57 GMT',
+427 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+427 silly registry.get     etag: '"2EUZ8MTGWLAJER9JVA35TAZA8"',
+427 silly registry.get     'content-type': 'application/json',
+427 silly registry.get     'cache-control': 'max-age=60',
+427 silly registry.get     'content-length': '9550',
+427 silly registry.get     'accept-ranges': 'bytes',
+427 silly registry.get     via: '1.1 varnish',
+427 silly registry.get     age: '0',
+427 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+427 silly registry.get     'x-cache': 'HIT',
+427 silly registry.get     'x-cache-hits': '1',
+427 silly registry.get     'x-timer': 'S1428831657.823066,VS0,VE26',
+427 silly registry.get     vary: 'Accept',
+427 silly registry.get     'keep-alive': 'timeout=10, max=50',
+427 silly registry.get     connection: 'Keep-Alive' } ]
+428 silly addNameRange number 2 { name: 'request', range: '>=2.51.0-0 <2.52.0-0', hasData: true }
+429 silly addNameRange versions [ 'request',
+429 silly addNameRange   [ '0.10.0',
+429 silly addNameRange     '0.8.3',
+429 silly addNameRange     '0.9.0',
+429 silly addNameRange     '0.9.1',
+429 silly addNameRange     '0.9.5',
+429 silly addNameRange     '1.0.0',
+429 silly addNameRange     '1.1.0',
+429 silly addNameRange     '1.1.1',
+429 silly addNameRange     '1.2.0',
+429 silly addNameRange     '1.9.0',
+429 silly addNameRange     '1.9.1',
+429 silly addNameRange     '1.9.2',
+429 silly addNameRange     '1.9.3',
+429 silly addNameRange     '1.9.5',
+429 silly addNameRange     '1.9.7',
+429 silly addNameRange     '1.9.8',
+429 silly addNameRange     '1.9.9',
+429 silly addNameRange     '2.0.0',
+429 silly addNameRange     '2.0.1',
+429 silly addNameRange     '2.0.2',
+429 silly addNameRange     '2.0.3',
+429 silly addNameRange     '2.0.4',
+429 silly addNameRange     '2.0.5',
+429 silly addNameRange     '2.1.0',
+429 silly addNameRange     '2.1.1',
+429 silly addNameRange     '2.2.0',
+429 silly addNameRange     '2.2.5',
+429 silly addNameRange     '2.2.6',
+429 silly addNameRange     '2.2.9',
+429 silly addNameRange     '2.9.0',
+429 silly addNameRange     '2.9.1',
+429 silly addNameRange     '2.9.2',
+429 silly addNameRange     '2.9.3',
+429 silly addNameRange     '2.9.100',
+429 silly addNameRange     '2.9.150',
+429 silly addNameRange     '2.9.151',
+429 silly addNameRange     '2.9.152',
+429 silly addNameRange     '2.9.153',
+429 silly addNameRange     '2.9.200',
+429 silly addNameRange     '2.9.201',
+429 silly addNameRange     '2.9.202',
+429 silly addNameRange     '2.9.203',
+429 silly addNameRange     '2.10.0',
+429 silly addNameRange     '2.11.0',
+429 silly addNameRange     '2.11.1',
+429 silly addNameRange     '2.11.2',
+429 silly addNameRange     '2.11.3',
+429 silly addNameRange     '2.11.4',
+429 silly addNameRange     '2.12.0',
+429 silly addNameRange     '2.14.0',
+429 silly addNameRange     '2.16.0',
+429 silly addNameRange     '2.16.2',
+429 silly addNameRange     '2.16.4',
+429 silly addNameRange     '2.16.6',
+429 silly addNameRange     '2.18.0',
+429 silly addNameRange     '2.19.0',
+429 silly addNameRange     '2.20.0',
+429 silly addNameRange     '2.21.0',
+429 silly addNameRange     '2.22.0',
+429 silly addNameRange     '2.23.0',
+429 silly addNameRange     '2.24.0',
+429 silly addNameRange     '2.25.0',
+429 silly addNameRange     '2.26.0',
+429 silly addNameRange     '2.27.0',
+429 silly addNameRange     '2.28.0',
+429 silly addNameRange     '2.29.0',
+429 silly addNameRange     '2.30.0',
+429 silly addNameRange     '2.31.0',
+429 silly addNameRange     '2.32.0',
+429 silly addNameRange     '2.33.0',
+429 silly addNameRange     '2.34.0',
+429 silly addNameRange     '2.35.0',
+429 silly addNameRange     '2.36.0',
+429 silly addNameRange     '2.37.0',
+429 silly addNameRange     '2.38.0',
+429 silly addNameRange     '2.39.0',
+429 silly addNameRange     '2.40.0',
+429 silly addNameRange     '2.41.0',
+429 silly addNameRange     '2.42.0',
+429 silly addNameRange     '2.43.0',
+429 silly addNameRange     '2.44.0',
+429 silly addNameRange     '2.45.0',
+429 silly addNameRange     '2.46.0',
+429 silly addNameRange     '2.47.0',
+429 silly addNameRange     '2.48.0',
+429 silly addNameRange     '2.49.0',
+429 silly addNameRange     '2.50.0',
+429 silly addNameRange     '2.51.0',
+429 silly addNameRange     '2.52.0',
+429 silly addNameRange     '2.53.0',
+429 silly addNameRange     '2.54.0',
+429 silly addNameRange     '2.55.0' ] ]
+430 verbose addNamed [ 'request', '2.51.0' ]
+431 verbose addNamed [ '2.51.0', '2.51.0' ]
+432 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+433 verbose lock request@2.51.0 /home/azureuser/.npm/85707acc-request-2-51-0.lock
+434 silly addNameRange number 2 { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+435 silly addNameRange versions [ 'async',
+435 silly addNameRange   [ '0.1.0',
+435 silly addNameRange     '0.1.1',
+435 silly addNameRange     '0.1.2',
+435 silly addNameRange     '0.1.3',
+435 silly addNameRange     '0.1.4',
+435 silly addNameRange     '0.1.5',
+435 silly addNameRange     '0.1.6',
+435 silly addNameRange     '0.1.7',
+435 silly addNameRange     '0.1.8',
+435 silly addNameRange     '0.1.9',
+435 silly addNameRange     '0.1.10',
+435 silly addNameRange     '0.1.11',
+435 silly addNameRange     '0.1.12',
+435 silly addNameRange     '0.1.13',
+435 silly addNameRange     '0.1.14',
+435 silly addNameRange     '0.1.15',
+435 silly addNameRange     '0.1.16',
+435 silly addNameRange     '0.1.17',
+435 silly addNameRange     '0.1.18',
+435 silly addNameRange     '0.1.19',
+435 silly addNameRange     '0.1.20',
+435 silly addNameRange     '0.1.21',
+435 silly addNameRange     '0.1.22',
+435 silly addNameRange     '0.2.0',
+435 silly addNameRange     '0.2.1',
+435 silly addNameRange     '0.2.2',
+435 silly addNameRange     '0.2.3',
+435 silly addNameRange     '0.2.4',
+435 silly addNameRange     '0.2.5',
+435 silly addNameRange     '0.2.6',
+435 silly addNameRange     '0.2.7',
+435 silly addNameRange     '0.2.8',
+435 silly addNameRange     '0.2.9',
+435 silly addNameRange     '0.2.10',
+435 silly addNameRange     '0.3.0',
+435 silly addNameRange     '0.4.0',
+435 silly addNameRange     '0.4.1',
+435 silly addNameRange     '0.5.0',
+435 silly addNameRange     '0.6.0',
+435 silly addNameRange     '0.6.1',
+435 silly addNameRange     '0.6.2',
+435 silly addNameRange     '0.7.0',
+435 silly addNameRange     '0.8.0',
+435 silly addNameRange     '0.9.0' ] ]
+436 verbose addNamed [ 'async', '0.9.0' ]
+437 verbose addNamed [ '0.9.0', '0.9.0' ]
+438 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+439 verbose lock async@0.9.0 /home/azureuser/.npm/9a58a886-async-0-9-0.lock
+440 silly addNameRange number 2 { name: 'gapitoken', range: '>=0.1.2-0 <0.2.0-0', hasData: true }
+441 silly addNameRange versions [ 'gapitoken',
+441 silly addNameRange   [ '0.0.1',
+441 silly addNameRange     '0.0.2',
+441 silly addNameRange     '0.0.3',
+441 silly addNameRange     '0.1.0',
+441 silly addNameRange     '0.1.1',
+441 silly addNameRange     '0.1.2',
+441 silly addNameRange     '0.1.3',
+441 silly addNameRange     '0.1.4' ] ]
+442 verbose addNamed [ 'gapitoken', '0.1.4' ]
+443 verbose addNamed [ '0.1.4', '0.1.4' ]
+444 silly lockFile b6a05e4d-gapitoken-0-1-4 gapitoken@0.1.4
+445 verbose lock gapitoken@0.1.4 /home/azureuser/.npm/b6a05e4d-gapitoken-0-1-4.lock
+446 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+447 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+448 silly lockFile f92bfdd8-rg-gapitoken-gapitoken-0-1-4-tgz https://registry.npmjs.org/gapitoken/-/gapitoken-0.1.4.tgz
+449 verbose lock https://registry.npmjs.org/gapitoken/-/gapitoken-0.1.4.tgz /home/azureuser/.npm/f92bfdd8-rg-gapitoken-gapitoken-0-1-4-tgz.lock
+450 silly lockFile cffdd4b2-request-2-51-0 request@~2.51.0
+451 silly lockFile cffdd4b2-request-2-51-0 request@~2.51.0
+452 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+453 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+454 verbose addRemoteTarball [ 'https://registry.npmjs.org/gapitoken/-/gapitoken-0.1.4.tgz',
+454 verbose addRemoteTarball   '643dedb26cb142466f62b73d2782e7822a6f1ad8' ]
+455 silly lockFile 38be4a8c-async-0-9-0 async@~0.9.0
+456 silly lockFile 38be4a8c-async-0-9-0 async@~0.9.0
+457 verbose about to build /home/azureuser/node_modules/googleapis
+458 info /home/azureuser/node_modules/googleapis unbuild
+459 info preuninstall googleapis@2.0.2
+460 info retry fetch attempt 1 at 09:40:58
+461 verbose fetch to= /home/azureuser/tmp/npm-22900-GjRhAH_8/1428831658271-0.8751116511411965/tmp.tgz
+462 info uninstall googleapis@2.0.2
+463 http GET https://registry.npmjs.org/gapitoken/-/gapitoken-0.1.4.tgz
+464 verbose true,/home/azureuser/node_modules,/home/azureuser/node_modules unbuild googleapis@2.0.2
+465 info postuninstall googleapis@2.0.2
+466 http 200 https://registry.npmjs.org/google-auth-library
+467 silly registry.get cb [ 200,
+467 silly registry.get   { date: 'Sun, 12 Apr 2015 09:40:57 GMT',
+467 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+467 silly registry.get     etag: '"D170U2UNZCNWIFQMG8MZITI3N"',
+467 silly registry.get     'content-type': 'application/json',
+467 silly registry.get     'cache-control': 'max-age=60',
+467 silly registry.get     'content-length': '12834',
+467 silly registry.get     'accept-ranges': 'bytes',
+467 silly registry.get     via: '1.1 varnish',
+467 silly registry.get     age: '0',
+467 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+467 silly registry.get     'x-cache': 'MISS',
+467 silly registry.get     'x-cache-hits': '0',
+467 silly registry.get     'x-timer': 'S1428831657.810590,VS0,VE114',
+467 silly registry.get     vary: 'Accept',
+467 silly registry.get     'keep-alive': 'timeout=10, max=50',
+467 silly registry.get     connection: 'Keep-Alive' } ]
+468 error Error: EACCES, open '/home/azureuser/.npm/request/2.51.0/package/package.json'
+468 error  { [Error: EACCES, open '/home/azureuser/.npm/request/2.51.0/package/package.json']
+468 error   errno: 3,
+468 error   code: 'EACCES',
+468 error   path: '/home/azureuser/.npm/request/2.51.0/package/package.json',
+468 error   parent: 'googleapis' }
+469 error Please try running this command again as root/Administrator.
+470 error System Linux 3.16.0-30-generic
+471 error command "/home/azureuser/.nvm/v0.10.28/bin/node" "/home/azureuser/.nvm/v0.10.28/bin/npm" "install" "googleapis"
+472 error cwd /home/azureuser/projectRhino
+473 error node -v v0.10.28
+474 error npm -v 1.4.9
+475 error path /home/azureuser/.npm/request/2.51.0/package/package.json
+476 error code EACCES
+477 error errno 3
+478 error stack Error: EACCES, open '/home/azureuser/.npm/request/2.51.0/package/package.json'
+479 verbose exit [ 3, true ]

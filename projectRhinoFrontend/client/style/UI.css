@@ -1,0 +1,18 @@
+#LoadingBtn {
+    margin-right: auto;
+    margin-left:auto;
+    font-size: 20px;
+}
+
+#LoadingImg {
+    margin-right: 30px;
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+}
+
+#DownloadBtn{
+    width:120pt;
+    height:120pt;
+    font-size: 80pt;
+}
